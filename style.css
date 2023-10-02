@@ -1,0 +1,96 @@
+nav{
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.vertical-line{
+    border-left:2px solid #f2f2f2;
+    height:60px;
+}
+.nav_delivery{
+    margin-top:10px;
+}
+.nav_delivery>h4{
+    font-weight:900;
+}
+#nav_search{
+    background-color: #f8f8f8;
+    border-radius:10px;
+    border:1px solid #f2f2f2;
+    padding-inline: 10px;
+}
+#nav_search>input{
+    border:none;
+    width:40vw;
+    height:40px;
+    background-color: transparent;
+}
+#hero_section2{
+    margin:auto;
+    width:76.5vw;
+} 
+#list{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+#list::-webkit-scrollbar{
+    display:none;
+}
+#list>img{
+    width:300px;
+    display:inline-block;
+    margin:10px;
+}
+#hero_section3{
+    display:flex;
+    flex-wrap:wrap;
+    margin-inline:155px;
+    justify-content:space-around;
+}
+#hero_section3>img{
+    width:120px;
+}
+#hero_section4{
+    margin:auto;
+    width:76.5vw;
+}
+.grocery_list{
+    white-space: nowrap;
+    overflow-x: scroll; 
+}
+.grocery_list::-webkit-scrollbar{
+    display:none;
+}
+.my_card{
+    display: inline-block !important;
+    width:200px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    white-space: wrap;
+    margin-inline: 10px;
+}
+.my_card>img{
+    display: inline-block ;
+    width:150px;
+    margin:auto;
+}
+.time{
+    background-color:#f2f2f2;
+    font-size:9px ;
+    font-weight:700 ;
+    border-radius: 15px;
+    width:fit-content;
+    padding:3px;
+}
+.weight{
+    font-size: 13px;
+    color:#666666;
+}
+.row3>p{
+    margin:0px;
+}
+footer>div{
+    text-align: center;
+    margin:30px;
+}
+
